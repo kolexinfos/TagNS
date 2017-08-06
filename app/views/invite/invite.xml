@@ -1,0 +1,5 @@
+<Page class="start-page dark-theme"
+      loaded ="onPageLoaded"
+      actionBarHidden="false">
+
+</Page>

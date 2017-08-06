@@ -1,0 +1,7 @@
+@import "styles/global.css";
+@import "styles/controls.css";
+
+StackLayout {
+    /*border-color: red;
+    border-width: 2px;*/
+}

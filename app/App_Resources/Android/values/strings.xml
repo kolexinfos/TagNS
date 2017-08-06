@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">1469741593086465</string>
+    <string name="app_name">ROSCA MOBILE</string>
+    <string name="title_activity_kimera">Login with Facebook</string>
+</resources>

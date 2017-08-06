@@ -1,0 +1,42 @@
+Page {
+    background-color: #70c4ff;
+    background-image: url("~/assets/images/bg_icons.png");
+}
+
+.title {
+    font-family: Lobster-Regular;
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-family: Comfortaa-Light;
+}
+
+#top-wrapper {
+    height: 55%;
+    padding: 50px;
+    margin-top: 250px;
+}
+
+#bottom-wrapper{
+    height: 30%;
+    margin-bottom: 100px;
+}
+
+#getStartedBtn {
+    font-family: BalooBhaina-Regular;
+    font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+Button {
+    background-color: #192448;
+    color: white;
+}
+
+Button:highlighted {
+    background-color: #1a1a43;
+    color: white;
+}

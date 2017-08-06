@@ -1,0 +1,37 @@
+/* Page */
+Page.dark-theme {
+    background-color: #1681c9;
+    padding: 30px;
+}
+/* Labels */
+Label {  font-size: 12px;  }
+Label.dark-theme {  color: #ffffff; }
+Label.light-theme {  color: #192448; }
+Label.light-theme-alt1 {  color: #878787; }
+
+/* Buttons */
+Button { padding: 10px }
+Button.dark-theme {
+    border-width: 2px;
+    border-color: white;
+    background-color: #fff;
+    color: #192448;
+    border-radius: 5px;
+}
+
+
+Button.light-theme:highlighted {
+    border-color: #213864;
+}
+
+
+Button.light-theme {
+    margin: 40px;
+    font-weight: bold;
+    border-color: #192448;
+    border-width: 2px;
+    color: white;
+    font-size: 12px;
+    border-radius: 80px;
+    background-color: #192448;
+}

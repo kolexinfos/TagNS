@@ -1,0 +1,30 @@
+<Page class="start-page dark-theme"
+      loaded ="onPageLoaded"
+      actionBarHidden="true">
+    <StackLayout
+            width="100%"
+            orientation="vertical"
+            horizontalAlignment="center">
+        <StackLayout id="top-wrapper"  orientation="vertical">
+            <Label verticalAlignment="center"
+                   horizontalAlignment="center"
+                   class="light-theme title"
+                   text-align="center"
+                   text="Kajó"/>
+            <Label verticalAlignment="center"
+                   horizontalAlignment="center"
+                   class="light-theme subtitle"
+                   text-align="center"
+                   text="Build yourself trust networks"/>
+        </StackLayout>
+        <StackLayout id="bottom-wrapper" orientation="vertical">
+            <Button id="getStartedBtn" verticalAlignment="bottom"
+                    class="light-theme"
+                    text="Get Started"
+                    tap="onGetStartedTap"/>
+            <Label horizontalAlignment="center"
+                   class="light-theme light-theme-alt1"
+                   text="Already have an account? Sign In"/>
+        </StackLayout>
+    </StackLayout>
+</Page>

@@ -1,0 +1,21 @@
+<Page class="start-page dark-theme"
+      loaded ="onPageLoaded"
+      actionBarHidden="true"
+      >
+  <StackLayout
+            width="100%"
+            orientation="vertical"
+            horizontalAlignment="center">
+        <StackLayout id="top-wrapper"  orientation="vertical">
+             <Button id="FacebookBtn" verticalAlignment="bottom"
+                    class="light-theme"
+                    text="Facebook Login"
+                    tap="loginFacebook"/>
+            <Label verticalAlignment="center"
+                   horizontalAlignment="center"
+                   class="light-theme subtitle"
+                   text-align="center"
+                   text="The App would not post to your page"/>
+        </StackLayout>
+      </StackLayout>
+</Page>
