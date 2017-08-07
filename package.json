@@ -10,6 +10,7 @@
     }
   },
   "dependencies": {
+    "nativescript-google-maps-sdk": "^2.3.2",
     "nativescript-social-login": "^1.5.6",
     "nativescript-videoplayer": "^3.0.7",
     "tns-core-modules": "^3.0.1"

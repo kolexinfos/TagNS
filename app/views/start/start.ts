@@ -22,3 +22,7 @@ export function onGetStartedTap (args) {
     topmost.navigate("views/login/login");
     
 }
+
+export function onLogInTap(){
+    console.log('Login Clicked');
+}
